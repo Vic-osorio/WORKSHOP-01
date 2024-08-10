@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylo.css">
+    <title>WorkShop</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="barra">
+            <ul class="list_product">
+                <li class="product_item" data-id="01">
+                    <img id="producto_img" src="img/01.jpg" class="expandir">
+                    Producto 1</li>
+                <li class="product-item" data-id="02">
+                    <img id="producto_img" src="img/02.jpg" class="expandir">
+                     Producto 2</li>
+
+                <li class="product-item" data-id="03">
+                    <img id="producto_img" src="img/01.jpg" class="expandir">
+                    Producto 3</li>
+
+                <li class="product-item" data-id="04"> Producto 4</li>
+                <li class="product-item" data-id="05"> Producto 5</li>
+            </ul>
+        </aside>
+
+        <main class="detalle_de_producto">
+            <h2 id="titulo_de_producto">Seleccione un producto</h2>
+            <div id="info_producto"></div>
+            <label for="size"></label>
+            <select id="size">
+                <option value="Talla S"> Talla S </option>
+                <option value="Talla M"> Talla M </option>
+                <option value="Talla L"> Talla L </option>
+                <option value="Talla XL"> Talla XL </option>
+            </select>
+
+
+        <aside class="carro_de_compra">
+            <h2> Carrito de Compras</h2>
+            <ul id="items_carro"></ul>
+            <button id="=verificar">Finalizar compra</button>
+        </aside>
+        </main>
+    </div>
+</body>
+</html>
